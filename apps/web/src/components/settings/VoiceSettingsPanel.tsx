@@ -136,6 +136,8 @@ import { ModelBenchmarks, orderSpeechLanguages } from "./SpeechModelComparison";
 import { languageLabel, SpeechLanguageSelect } from "./SpeechLanguageSelect";
 import { filterSpeechModels, type SpeechModelSort } from "./speechModelBrowser";
 import { AdvancedSettings } from "./AdvancedSettings";
+import { TextToSpeechSettings } from "./TextToSpeechSettings";
+import { isElectron } from "~/env";
 import {
   SETTINGS_PICKER_TRIGGER_CLASSNAME,
   SettingsPageContainer,
@@ -1901,6 +1903,7 @@ export function VoiceSettingsPanel() {
           />
         ) : null}
       </SettingsSection>
+      {isElectron ? <TextToSpeechSettings /> : null}
     </SettingsPageContainer>
   );
 }

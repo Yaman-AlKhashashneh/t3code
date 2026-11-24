@@ -15,6 +15,8 @@ import { HtmlRenderFrame } from "./HtmlRenderFrame";
 import { McpAppFrame } from "./McpAppFrame";
 import { readResponseSubagents, useAssistantMessageText } from "../../state/entities";
 import { MessageCopyButton } from "./MessageCopyButton";
+import { ReadAloudButton } from "./ReadAloudButton";
+import { isElectron } from "~/env";
 import { AssistantCitationSource } from "./AssistantCitationSource";
 import { resolveAssistantMessageCopyState } from "./MessagesTimeline.logic";
 import { Tooltip, TooltipPopup, TooltipTrigger } from "../ui/tooltip";
@@ -330,7 +332,13 @@ function AssistantCopyButton({
     return null;
   }
 
-  return <MessageCopyButton text={assistantCopyState.text ?? ""} variant="ghost" />;
+  const text = assistantCopyState.text ?? "";
+  return (
+    <>
+      <MessageCopyButton text={text} variant="ghost" />
+      {isElectron ? <ReadAloudButton messageKey={message.id} text={text} /> : null}
+    </>
+  );
 }
 
 export function ProposedPlanTimelineRow({

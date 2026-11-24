@@ -12796,5 +12796,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Cancelar merge automático da pilha",
-  "012c67c7f1a99e33": "Merge automático da pilha"
+  "012c67c7f1a99e33": "Merge automático da pilha",
+  "6cc368fe45c78007": "Não foi possível ler a resposta em voz alta",
+  "154bec57dbece73c": "Parar leitura",
+  "0eceb5780908eb6c": "Ler em voz alta",
+  "d37f2234cb5eef47": "Modelo de voz Kokoro",
+  "f5994fe46a9877b7": "text to speech tts ler em voz alta falar ouvir voz resposta kokoro",
+  "927d4412121b527d": "Texto para fala",
+  "e22d35d70b137e22": "Falha no download: {error}",
+  "cc9c9e2b8e155284": "Lê em voz alta as respostas do assistente neste dispositivo. Baixe uma vez ({size}); nada do que é lido sai deste computador.",
+  "608ecd8d673a3cc6": "Cancelar download do Kokoro",
+  "749f520d68c9500a": "Excluir modelo de voz Kokoro",
+  "5c174688fdb31c00": "Instalado"
 }

@@ -170,3 +170,14 @@ same environment, language, and dictionary as the composer, but skips transcript
 cleanup even when it is on, so you see what the model heard. Browser recording
 needs HTTPS or localhost and microphone permission; for a remote server over
 plain HTTP, use the desktop app.
+
+## Read replies aloud
+
+In the desktop app, the speaker button under an assistant reply reads it aloud.
+Press it again to stop; starting another reply stops the current one. Code blocks,
+images, and tool output are skipped.
+
+Reading uses Kokoro, an English voice model that runs on your computer. Download it
+once under **Settings → Voice → Text to speech** (about 310 MB). Replies are read on
+this computer even when you're connected to a remote environment, and nothing is
+sent anywhere. Delete the model there to free the space.

@@ -563,6 +563,10 @@
       "types": "./src/generatedImageMarkdown.ts",
       "import": "./src/generatedImageMarkdown.ts"
     },
+    "./markdownSpeech": {
+      "types": "./src/markdownSpeech.ts",
+      "import": "./src/markdownSpeech.ts"
+    },
     "./markdownPipeline": {
       "types": "./src/markdownPipeline.ts",
       "import": "./src/markdownPipeline.ts"

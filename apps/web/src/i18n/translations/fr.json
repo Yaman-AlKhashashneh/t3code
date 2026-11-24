@@ -12796,5 +12796,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Annuler la fusion automatique de la pile",
-  "012c67c7f1a99e33": "Fusion automatique de la pile"
+  "012c67c7f1a99e33": "Fusion automatique de la pile",
+  "6cc368fe45c78007": "Impossible de lire la réponse à voix haute",
+  "154bec57dbece73c": "Arrêter la lecture",
+  "0eceb5780908eb6c": "Lire à voix haute",
+  "d37f2234cb5eef47": "Modèle vocal Kokoro",
+  "f5994fe46a9877b7": "text to speech tts synthèse vocale lire à voix haute parler écouter voix réponse kokoro",
+  "927d4412121b527d": "Synthèse vocale",
+  "e22d35d70b137e22": "Échec du téléchargement : {error}",
+  "cc9c9e2b8e155284": "Lit à voix haute les réponses de l’assistant sur cet appareil. Téléchargez-le une fois ({size}) ; rien de ce qui est lu ne quitte cet ordinateur.",
+  "608ecd8d673a3cc6": "Annuler le téléchargement de Kokoro",
+  "749f520d68c9500a": "Supprimer le modèle vocal Kokoro",
+  "5c174688fdb31c00": "Installé"
 }

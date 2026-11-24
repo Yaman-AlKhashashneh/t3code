@@ -12805,5 +12805,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Cancel stack auto-merge",
-  "012c67c7f1a99e33": "Auto-merge stack"
+  "012c67c7f1a99e33": "Auto-merge stack",
+  "6cc368fe45c78007": "Could not read the reply aloud",
+  "154bec57dbece73c": "Stop reading",
+  "0eceb5780908eb6c": "Read aloud",
+  "d37f2234cb5eef47": "Kokoro voice model",
+  "f5994fe46a9877b7": "text to speech tts read aloud speak listen voice reply kokoro",
+  "927d4412121b527d": "Text to speech",
+  "e22d35d70b137e22": "Download failed: {error}",
+  "cc9c9e2b8e155284": "Reads assistant replies aloud on this device. Download it once ({size}); nothing you read leaves this computer.",
+  "608ecd8d673a3cc6": "Cancel Kokoro download",
+  "749f520d68c9500a": "Delete Kokoro voice model",
+  "5c174688fdb31c00": "Installed"
 }

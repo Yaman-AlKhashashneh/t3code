@@ -607,6 +607,13 @@ export const SETTINGS_SEARCH_ITEMS = [
     ],
   },
   {
+    id: "text-to-speech-model",
+    title: msg("Kokoro voice model"),
+    to: "/settings/voice",
+    searchTerms: [msg("text to speech tts read aloud speak listen voice reply kokoro")],
+    desktopOnly: true,
+  },
+  {
     id: "voice-microphone",
     title: msg("Microphone"),
     to: "/settings/voice",

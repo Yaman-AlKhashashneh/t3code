@@ -80,6 +80,16 @@ describe("RemoteRequestHeaders", () => {
     }
   });
 
+  it("preserves Origin for Hugging Face model downloads, which need it for CORS", () => {
+    const headers = stripDesktopOriginHeaders(packagedPolicy, {
+      url: "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/config.json",
+      webContentsId: 42,
+      frame: { parent: null },
+      requestHeaders: { Origin: "t3code://app", "Sec-Fetch-Site": "cross-site" },
+    });
+    assert.isUndefined(headers);
+  });
+
   it("preserves headers for dev loopback and exact devServerOrigin, while stripping other ports and remote hosts", () => {
     for (const url of [
       "http://localhost:3773/api/health",

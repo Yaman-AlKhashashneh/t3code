@@ -69,8 +69,12 @@ function hasExactDesktopOriginHeader(
   return matched;
 }
 
+// Hugging Face echoes Origin for CORS; without it the text-to-speech model download is refused.
+const CORS_ORIGIN_HOSTNAMES = new Set(["huggingface.co"]);
+
 function shouldPreserveOriginHeader(policy: MainWindowRequestHeaderPolicy, url: URL): boolean {
   const hostname = normalizeHostname(url.hostname);
+  if (CORS_ORIGIN_HOSTNAMES.has(hostname)) return true;
   if (
     policy.clerkFrontendApiHostname !== undefined &&
     hostname === normalizeHostname(policy.clerkFrontendApiHostname)

@@ -12803,5 +12803,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Avbryt automatisk merge för stacken",
-  "012c67c7f1a99e33": "Merga stacken automatiskt"
+  "012c67c7f1a99e33": "Merga stacken automatiskt",
+  "6cc368fe45c78007": "Det gick inte att läsa upp svaret",
+  "154bec57dbece73c": "Sluta läsa upp",
+  "0eceb5780908eb6c": "Läs upp",
+  "d37f2234cb5eef47": "Kokoro-röstmodell",
+  "f5994fe46a9877b7": "text to speech tts läs upp tala lyssna röst svar talsyntes kokoro",
+  "927d4412121b527d": "Text till tal",
+  "e22d35d70b137e22": "Nedladdningen misslyckades: {error}",
+  "cc9c9e2b8e155284": "Läser upp assistentens svar på den här enheten. Ladda ned den en gång ({size}); inget som läses upp lämnar den här datorn.",
+  "608ecd8d673a3cc6": "Avbryt Kokoro-nedladdningen",
+  "749f520d68c9500a": "Ta bort Kokoro-röstmodellen",
+  "5c174688fdb31c00": "Installerad"
 }

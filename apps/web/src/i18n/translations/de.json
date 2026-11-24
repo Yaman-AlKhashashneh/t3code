@@ -12796,5 +12796,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Auto-Merge für Stack abbrechen",
-  "012c67c7f1a99e33": "Auto-Merge für Stack"
+  "012c67c7f1a99e33": "Auto-Merge für Stack",
+  "6cc368fe45c78007": "Die Antwort konnte nicht vorgelesen werden",
+  "154bec57dbece73c": "Vorlesen beenden",
+  "0eceb5780908eb6c": "Vorlesen",
+  "d37f2234cb5eef47": "Kokoro-Sprachmodell",
+  "f5994fe46a9877b7": "text to speech tts vorlesen sprechen anhören stimme antwort sprachausgabe kokoro",
+  "927d4412121b527d": "Sprachausgabe",
+  "e22d35d70b137e22": "Download fehlgeschlagen: {error}",
+  "cc9c9e2b8e155284": "Liest Antworten des Assistenten auf diesem Gerät vor. Einmal herunterladen ({size}); nichts, was vorgelesen wird, verlässt diesen Computer.",
+  "608ecd8d673a3cc6": "Kokoro-Download abbrechen",
+  "749f520d68c9500a": "Kokoro-Sprachmodell löschen",
+  "5c174688fdb31c00": "Installiert"
 }

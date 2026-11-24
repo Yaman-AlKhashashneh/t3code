@@ -12791,5 +12791,16 @@
     ")"
   ],
   "33d18dda74f6d7b3": "Cancelar la fusión automática de la pila",
-  "012c67c7f1a99e33": "Fusión automática de la pila"
+  "012c67c7f1a99e33": "Fusión automática de la pila",
+  "6cc368fe45c78007": "No se pudo leer la respuesta en voz alta",
+  "154bec57dbece73c": "Dejar de leer",
+  "0eceb5780908eb6c": "Leer en voz alta",
+  "d37f2234cb5eef47": "Modelo de voz Kokoro",
+  "f5994fe46a9877b7": "text to speech tts leer en voz alta hablar escuchar voz respuesta kokoro",
+  "927d4412121b527d": "Texto a voz",
+  "e22d35d70b137e22": "Error en la descarga: {error}",
+  "cc9c9e2b8e155284": "Lee en voz alta las respuestas del asistente en este dispositivo. Descárgalo una vez ({size}); nada de lo que se lee sale de este equipo.",
+  "608ecd8d673a3cc6": "Cancelar la descarga de Kokoro",
+  "749f520d68c9500a": "Eliminar el modelo de voz Kokoro",
+  "5c174688fdb31c00": "Instalado"
 }
